@@ -1,0 +1,23 @@
+{
+  "name": "eslint-bug",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "prettier": "^2.4.1",
+    "tsdx": "^0.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "m.deljavan",
+  "license": "ISC",
+  "resolutions": {
+    "eslint": "^8.1.0"
+  }
+}
